@@ -1,0 +1,45 @@
+.header {
+  background-color: crimson;
+  text-align: center;
+  padding: 3%;
+  color: white;
+}
+.footer {
+  background-color: grey;
+}
+.card {
+  max-width: 700px;
+  display: flex;
+  justify-self: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 100px;
+  justify-content: space-around;
+  text-align: left;
+}
+.card-title {
+  font-size: 40px;
+  color: crimson;
+}
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
